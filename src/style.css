@@ -17,3 +17,22 @@ a {
 a:hover {
   @apply text-[#535bf2];
 }
+
+.header{
+  font-family: Helvetica;
+  font-size: 79px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+.flex-container{
+  background-color: #000000;
+  height: 35%;
+  width: 100%;
+  align-items: center;
+}
+.header-line{
+  height: 5%;
+  width: 100%;
+  background-color: #ffffff;
+}
