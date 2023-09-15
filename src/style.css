@@ -48,12 +48,13 @@ a:hover {
   display: flex;
   justify-content: space-evenly; /* allocateas extra space inbetween or around our elements */
   align-items: center;
-  width: 90vw;
-  margin: 5px;
+  width: 100%;
+  margin: 10%;
   /* centers element */
   flex-wrap: wrap;
   flex-direction: column;
   z-index: 1;
+  
 }
 .box{
   height: 100%;
