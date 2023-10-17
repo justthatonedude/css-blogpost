@@ -1,23 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  color-scheme: light dark;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Red_square_Moscow_cityscape_%288309148721%29.jpg/1920px-Red_square_Moscow_cityscape_%288309148721%29.jpg");
 }
-
-a {
-  @apply font-medium text-[#646cff];
-}
-a:hover {
-  @apply text-[#535bf2];
-}
-
 .header{
   font-family: Helvetica;
   font-size: 79px;
@@ -29,11 +12,12 @@ a:hover {
 }
 .header-flex-container{
   background-color: #000000;
-  height: 150px;
+  height: 15rem;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   z-index: 1;
+  transform: translate(0,-20%);
 }
 #header-line{
   background-color: #ffffff; 
